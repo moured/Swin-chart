@@ -1,6 +1,7 @@
 import os
 import shutil
 import random
+import argparse
 
 def split_dataset(root_dir, train_dir, val_dir, split_ratio=0.8):
     # Define paths for annotations and images
@@ -55,9 +56,15 @@ def split_dataset(root_dir, train_dir, val_dir, split_ratio=0.8):
             shutil.copy(json_file_path, os.path.join(val_annotations, subfolder, file))
             shutil.copy(image_file_path, os.path.join(val_images, subfolder, file.replace('.json', '.jpg')))
 
-# Example usage
-root_dir = '/hkfs/home/project/hk-project-cvhciass/lj7698/datasets/DATASETS/ICPR2022/ICPR2022_CHARTINFO_UB_PMC_TRAIN_v1.0'  # Your original dataset root directory
-train_dir = '/hkfs/home/project/hk-project-cvhciass/lj7698/datasets/DATASETS/ICPR2022/local_train_set'
-val_dir = '/hkfs/home/project/hk-project-cvhciass/lj7698/datasets/DATASETS/ICPR2022/local_test_set'
+# Main function to take arguments
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Split dataset into train and val sets.")
+    parser.add_argument('--root_dir', type=str, required=True, help="Path to the root dataset directory")
+    parser.add_argument('--train_dir', type=str, required=True, help="Path to save the training dataset")
+    parser.add_argument('--val_dir', type=str, required=True, help="Path to save the validation dataset")
+    parser.add_argument('--split_ratio', type=float, default=0.8, help="Ratio of data for training (default is 0.8)")
 
-split_dataset(root_dir, train_dir, val_dir, split_ratio=0.8)
+    args = parser.parse_args()
+
+    # Call the function with the provided arguments
+    split_dataset(args.root_dir, args.train_dir, args.val_dir, split_ratio=args.split_ratio)
