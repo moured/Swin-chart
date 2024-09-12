@@ -1,0 +1,12 @@
+torch
+torchvision
+timm==0.6.5
+scikit-image
+Pillow
+cosine-annealing-warmup
+transformers
+tqdm
+matplotlib
+plotly
+seaborn
+git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup

@@ -1,0 +1,24 @@
+
+Test Loss: 0.315335
+Precision: 0.9349
+Recall: 0.9282
+F1-Score (Weighted): 0.9279
+F1-Score (Macro): 0.9147
+Overall Test Accuracy: 92.8170 (10570.0/11388.0)
+
+Class-wise Test Accuracy:
+Test Accuracy of area: 83.09% (113/136)
+Test Accuracy of heatmap: 65.00% (117/180)
+Test Accuracy of horizontal_bar: 97.18% (413/425)
+Test Accuracy of horizontal_interval: 90.23% (388/430)
+Test Accuracy of line: 97.62% (2710/2776)
+Test Accuracy of manhattan: 91.25% (73/80)
+Test Accuracy of map: 97.86% (365/373)
+Test Accuracy of pie: 99.48% (190/191)
+Test Accuracy of scatter: 93.15% (884/949)
+Test Accuracy of scatter-line: 74.51% (1213/1628)
+Test Accuracy of surface: 95.31% (122/128)
+Test Accuracy of venn: 100.00% (131/131)
+Test Accuracy of vertical_bar: 98.02% (3120/3183)
+Test Accuracy of vertical_box: 93.29% (556/596)
+Test Accuracy of vertical_interval: 96.15% (175/182)

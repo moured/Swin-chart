@@ -1,0 +1,31 @@
+{
+    "train_image_folder": "path/to/train/dataset/images",
+    "train_annotation_folder": "path/to/train/dataset/annotations_JSON",
+    "val_image_folder": "path/to/test/dataset/images",
+    "val_annotation_folder": "path/to/train/dataset/annotations_JSON",
+    "batch_size": 128,
+    "epochs": 50,
+    "lr": 0.00003,
+    "max_lr": 0.001,
+    "min_lr": 0.000001,
+    "model_name": "swin_base_patch4_window7_224",
+    "weights_save_path": "path/to/save/epochs/weights",
+    "best_model_save_path": "path/to/save/best/model",
+    "label_to_idx": {
+        "area": 0,
+        "heatmap": 1,
+        "horizontal_bar": 2,
+        "horizontal_interval": 3,
+        "line": 4,
+        "manhattan": 5,
+        "map": 6,
+        "pie": 7,
+        "scatter": 8,
+        "scatter-line": 9,
+        "surface": 10,
+        "venn": 11,
+        "vertical_bar": 12,
+        "vertical_box": 13,
+        "vertical_interval": 14
+    }
+  }
