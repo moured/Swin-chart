@@ -31,10 +31,10 @@ We introduce **Swin-Chart**, a Swin Transformer-based model with finetuning and 
 ## 📝 Catalog
 - [x] Training Code
 - [x] Testing Code
-- [ ] Swin-Chart Checkpoints
+- [ ] Swin-Chart Checkpoints (soon)
   - [x] Best Swin-Base Checkpoint 
-  - [ ] Greedy Soup Checkpoint
-- [ ] Checkpoint Averaging Code
+  - [ ] Greedy Soup Checkpoint (soon)
+- [ ] Checkpoint Averaging Code (soon)
 
 ## 📦 Installation
 **1. Clone the repository**
