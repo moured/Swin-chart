@@ -1,8 +1,8 @@
 <h1 align="center">📊 Swin-Chart </h1>
 <h3 align="center">Swin-chart: An efficient approach for chart classification</h3>
 <h4 align="center">Volume 185, September 2024, Pages 203-209</h4>
-<h3 align="center"> Maintained by <a href="https://www.linkedin.com/in/omar-moured/">🔗 Omar Moured</a> | <a href="https://github.com/moured"> 💻 GitHub</a> </h3>
-
+<!-- <h3 align="center"> Maintained by <a href="https://www.linkedin.com/in/omar-moured/">🔗 Omar Moured</a> | <a href="https://github.com/moured"> 💻 GitHub</a> </h3>
+ -->
 <p align="center">
   <a href="https://www.sciencedirect.com/science/article/pii/S0167865524002447">
     <img src="https://img.shields.io/badge/ScienceDirect-Paper-orange?logo=Elsevier" /></a>
@@ -14,8 +14,8 @@
     <img src="https://img.shields.io/badge/Framework-PyTorch%202.1.1-orange" /></a> 
     <a href="https://github.com/yufanchen96/RoDLA/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" /></a>
-    <img alt="visits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmoured%2FSwin-chart&count_bg=%23DC00FF&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits&edge_flat=false">
-</p>
+<!--     <img alt="visits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmoured%2FSwin-chart&count_bg=%23DC00FF&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits&edge_flat=false">
+</p> -->
 
 ## 🏡 About
 
